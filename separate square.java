@@ -15,7 +15,6 @@ class Solution {
         double low = minY;
         double high = maxY;
         
-        // 100 iterations for high precision
         for (int i = 0; i < 100; i++) {
             double mid = low + (high - low) / 2;
             if (calculateAreaBelow(squares, mid) < totalArea / 2.0) {

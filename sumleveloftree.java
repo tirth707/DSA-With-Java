@@ -55,7 +55,6 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        // Creating Example 1: [1, 7, 0, 7, -8]
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(7);
         root.right = new TreeNode(0);

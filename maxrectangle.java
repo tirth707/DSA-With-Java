@@ -9,7 +9,6 @@ class Solution {
         int maxArea = 0;
         
         for (int r = 0; r < matrix.length; r++) {
-            // Update heights for the current row
             for (int c = 0; c < cols; c++) {
                 if (matrix[r][c] == '1') {
                     heights[c] += 1;
@@ -17,7 +16,6 @@ class Solution {
                     heights[c] = 0;
                 }
             }
-            // Find largest rectangle for the current histogram
             maxArea = Math.max(maxArea, largestRectangleInHistogram(heights));
         }
         

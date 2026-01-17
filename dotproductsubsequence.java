@@ -1,4 +1,4 @@
-class Solution {
+class DotProductSubsequence {
     public int maxDotProduct(int[] nums1, int[] nums2) {
         int n = nums1.length;
         int m = nums2.length;
@@ -24,7 +24,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        DotProductSubsequence sol = new DotProductSubsequence();
 
         int[] nums1_1 = {2, 1, -2, 5};
         int[] nums2_1 = {3, 0, -6};
