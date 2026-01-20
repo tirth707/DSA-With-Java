@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class Solution {
+class MaxRectangle {
     public int maximalRectangle(char[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return 0;
         

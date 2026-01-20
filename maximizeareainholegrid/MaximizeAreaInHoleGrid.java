@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class MaximizeAreaInHoleGrid {
     public int maximizeSquareHoleArea(int n, int m, int[] hBars, int[] vBars) {
         int maxH = getMaxConsecutive(hBars);
        

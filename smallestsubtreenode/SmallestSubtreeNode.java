@@ -11,7 +11,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class SmallestSubtreeNode {
     class Result {
         TreeNode node;
         int dist;

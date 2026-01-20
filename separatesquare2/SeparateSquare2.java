@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class SeparateSquare2 {
     public double separateSquares(int[][] squares) {
         Set<Integer> xCoords = new TreeSet<>();
         Set<Integer> yCoords = new TreeSet<>();

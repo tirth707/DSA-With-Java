@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class MaximumAreaWithRemovingFence {
     public int maximizeSquareArea(int m, int n, int[] hFences, int[] vFences) {
         long maxSide = -1;
         long MOD = 1_000_000_007;

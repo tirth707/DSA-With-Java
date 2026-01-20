@@ -1,4 +1,4 @@
-class Solution
+class MergeAlternately
 {
     public String mergeAlternately(String word1,String word2)
     {

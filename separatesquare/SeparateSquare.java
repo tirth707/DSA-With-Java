@@ -1,4 +1,4 @@
-class Solution {
+class SeparateSquare {
     public double separateSquares(int[][] squares) {
         double minY = Double.MAX_VALUE;
         double maxY = Double.MIN_VALUE;

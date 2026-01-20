@@ -1,4 +1,4 @@
-class Solution {
+class MaximumMatrixSum {
     public long maxMatrixSum(int[][] matrix) {
         long totalsum = 0;
         int minabs = Integer.MAX_VALUE;

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class solution{
+class ShuffleTheArray{
     public static int[] shuffle(int[] nums, int n){
         int[] r=new int[2*n];
         for(int i=0;i<n;i++){

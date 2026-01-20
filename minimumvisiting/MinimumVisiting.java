@@ -1,4 +1,4 @@
-class Solution {
+class MinimumVisiting {
     public int minTimeToVisitAllPoints(int[][] points) {
         int total = 0;
         for (int i = 0; i < points.length - 1; i++) {
