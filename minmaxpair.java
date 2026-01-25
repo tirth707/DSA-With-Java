@@ -19,7 +19,7 @@ public class minmaxpair{
         int[] test1 = {3, 5, 2, 3};
         System.out.println("Test Case 1: " + sol.minPairSum(test1)); // Expected: 7
 
-        int[] test2 = {3, 5, 4, 2, 4, 6};
+        int[] test2 = {3, 5, 4, 2, 4, 7};
         System.out.println("Test Case 2: " + sol.minPairSum(test2)); // Expected: 8
     }
     
